@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .left-box{
+    float: left;
+    width: 40%;
+    height: 100vh;
+  }
+  .home {
+    height:240vh;
+    width: 100vw;
+    background-image: url(../images/secondary_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+}
+.info{
+    width:47%;
+    display: grid;
+    grid-template-columns:repeat(1,1fr)  ;
+    flex-direction: column;
+    margin-left:30%;
+    float: left;
+}
+  .h2-title{
+    margin:100px 0px 30px 0px;
+    color: #fff;
+  }
+  .row3 {
+    width: 190px;
+    height: 1px;
+    background-color:#dbb338;
+    margin-top: -23px;
+    margin-bottom: 50px;
+    display: block;
+}
+.label{    
+    color: #fff;
+    margin-bottom: -20px;
+}
+.input{
+    width:  100%;
+    height: 50px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    border-radius:7px;
+    opacity: 0.4;
+    background-color:  #696969;
+    font-size: 21px;
+    color: #000000;
+}
+.input2{
+    width:90%;
+    height: 50px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    border-radius: 7px;
+    opacity: 0.4;
+    margin-top: 15px;
+    background-color:   #686868;
+    cursor: pointer;
+    font-size: 21px;
+}
+.input3{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border-radius:7px;
+    opacity: 0.4;
+    background-color:  #6e6e6e;
+    font-size: 21px;
+    color: #000000;
+}
+/* /////////////////////////////////////// */
+.to{
+    margin-top: 15px;
+    margin-left: -7%;
+}
+.inp2{
+    width: 300px;
+}
+ .inp1{
+    width:1000px;
+}
+.inp{
+    width:570px;
+}
+.inp3{
+    width:300px;
+}
+.inp4{
+    width:900px;
+}
+.info4{
+    display: grid;
+    grid-template-columns:repeat(3,1fr)  ;
+    flex-direction: column;
+}
+.inp4{
+    width: 260px;
+    margin-right: 15px;
+}
+.double{
+    margin-left:  -210px; ;
+}
+.info2{
+    display: grid;
+    grid-template-columns:repeat(2,1fr)  ;
+    flex-direction: column;
+}
+/* /////////////////////////////////////// */
+.select{
+    margin-bottom: 25px;
+}
+.option{
+    background-color:   #858585;
+    opacity: 0.2;
+    font-size: 19px;
+    color: #000000;    
+}
+.button{
+    width: 140px;
+    height: 40px;
+    float: right;
+    margin: auto;
+    margin-left: -240px;
+   margin-bottom: 60px;
+    background-color:  #dbb338;
+    color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.title2{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 180px;
+    margin-left: -100px;
+    float: left;  
+}
+#drop-container{
+    width:400px ;
+    height: 230px;
+    background-color:#1A1919;
+    border: dashed 3px #dbb338;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 40px;
+    margin-left: -25%;
+    margin-bottom: -550px;
+    margin-top: 15px;
+}
+#drop-container:active{
+    border: solid 3px #dbb338;
+    cursor: pointer;
+}
+.icon{
+    font-size: 100px;
+    color:#dbb338 ;
+    cursor: pointer;
+    border: none;
+    display: block;
+    margin: auto;
+}
+#icon2{
+    display: none;
+    font-size: 90px;
+    color:#dbb338 ;
+    cursor: pointer;
+    border: none;
+    margin-top: -65px;
+}
+.drag-desc{
+    display: flex;
+    text-align: center;
+}
+.drag-drop h3{
+color: #fff;
+display: none;
+margin-bottom: 20px;
+font-size: 15px;
+margin: auto;
+
+}
+.drag-drop{
+    padding: 2%;
+    margin: auto;
+}
+.drag-desc h2 {
+    color:#fff ;
+    margin-bottom:15px ;
+    margin: auto;
+}
+.drag-drop input{
+    display: none;
+}
+.drag-desc .browse{
+    color: #dbb338;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 21px;
+    text-align: center;
+}
+#drop-container p{
+    color:#ffffff1e ;
+    margin-top: 10px;
+}
+#drop-area img{
+    max-width: 700PX;
+    max-height: 250PX;
+    background-color:#1A1919;
+    margin-top: -50px;
+    background-size: cover;
+    border-radius: 10PX;
+    cursor: pointer;
+}
+input:focus{
+    box-shadow: none;
+}
+.inputs{
+    width: 100%;
+    float: left;
+    display: inline-flex;
+}
+.radio{
+    float: right;
+    margin-left: 100px;
+    margin-top: 45px;
+}
+.buttons{
+    width: 77%;    
+    margin-left: 110px;
+    margin-top: 80px;
+}
+.buttons label{
+    background-color: #dbb338;
+    cursor: pointer;
+}
+.button2{
+    width: 140px;
+    height: 40px;
+    background-color:  #dbb338;
+    color: #fff;
+    border-radius: 7px;
+    float: right;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin: 0 10px;
+    font-size: 17px;
+}
+.btn-color{
+    background-color: #999999;
+}
+.t{
+    margin-bottom: 0px;
+}
+input:focus{
+    box-shadow: none;
+}
+@media(max-width:567px){
+    .container-info{
+        width: 100%;
+    }
+    .info{
+        width: 55%;
+        display: grid;
+        grid-template-columns:repeat(1,1fr)  ;
+        flex-direction: column;
+        margin: 0% 10%;
+    }
+    .info6{
+        display: grid;
+        grid-template-columns:repeat(2,1fr)  ;
+        flex-direction: column;
+        width: 200px;
+    }
+    .double{
+        margin-left: auto;
+    }
+    .inp2{
+        width:  330px;
+    }
+    .inp1{
+        width: 300px;
+    }
+    .radio1{
+        margin-left: 30%;
+        margin-top: -15%;    
+        margin-bottom: 10%;
+    }
+    .radio2{
+        margin-left: -25%;
+        margin-top: -15%;
+    }
+    .inp{
+        width: 300px;
+    }
+    .container{
+        display: block;
+        width:100% ;
+    }
+    .title2{
+        float: left;
+        margin-left: 5%;
+        margin-top: -15px;
+    }
+    #drop-container{
+        width:300px ;
+        height: 230px;
+        background-color:#1A1919;
+        border: dashed 2px #dbb338;
+        border-radius: 5px;
+        margin: 15px 0 25px 5%;
+        float: left;
+        display: grid;
+        grid-template-columns:repeat(1,1fr)  ;
+        flex-direction: column;
+    }
+    .drag-desc h2 {
+        font-size: 17px;
+    }
+    #skills{
+        margin-bottom:50% ;
+    }
+    .buttons{
+        display: grid;
+        grid-template-columns:repeat(1,1fr)  ;
+        flex-direction: column;
+    }
+    .button2{
+        width: 300px;
+        height: 55px;
+        background-color:  #dbb338;
+        color: #fff;
+        border-radius: 7px;
+        cursor: pointer;
+        float:left ;
+        margin-left: -17%;
+        margin-bottom: 20px;
+    }
+    .btn-color{
+        background-color: #999999;
+    }
+    .button{
+        display: none;
+    }
+}
