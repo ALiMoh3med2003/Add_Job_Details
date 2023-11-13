@@ -72,12 +72,16 @@ SaveBtn.addEventListener("click", function(e){
         localStorage.setItem("companyName" , companyName.value)
         localStorage.setItem("aboutCompany" , aboutCompany.value)
         localStorage.setItem("Position" , Position.value)
-        localStorage.setItem("img" , image.fileURL)
+        localStorage.setItem("img" , img.fileURL)
         localStorage.setItem("jobType" , jobType.value)
         localStorage.setItem("salary" , salary.value)
         localStorage.setItem("to" ,to.value)  
         localStorage.setItem("jobDescription" , jobDescription.value)
         localStorage.setItem("jobRequirements" , JobRequirements.value)
         localStorage.setItem("skills" , skills.value)
+
+        setTimeout(() => {
+            location.reload()
+        }, 1500);
     }
 })

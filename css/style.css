@@ -172,6 +172,7 @@
     border: none;
     display: block;
     margin: auto;
+    margin-top: 30px;
 }
 #icon2{
     display: none;
@@ -179,7 +180,7 @@
     color:#dbb338 ;
     cursor: pointer;
     border: none;
-    margin-top: -65px;
+    margin-top: -15px;
 }
 .drag-desc{
     display: flex;
@@ -218,9 +219,9 @@ margin: auto;
 }
 #drop-area img{
     max-width: 700PX;
-    max-height: 250PX;
+    max-height: 200PX;
     background-color:#1A1919;
-    margin-top: -50px;
+    margin-top: -40px;
     background-size: cover;
     border-radius: 10PX;
     cursor: pointer;
